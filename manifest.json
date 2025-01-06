@@ -6,8 +6,8 @@
   "description": "A simple and elegant to-do list app with multiple lists and dark mode support.",
   "display": "standalone",
   "theme_color": "#000",
-  "scope": "/todo-app/",
-  "start_url": "/todo-app/",
+  "scope": "/ca-tasks/",
+  "start_url": "/ca-tasks/",
   "icons": [
     {
       "src": "icon-512.png",
