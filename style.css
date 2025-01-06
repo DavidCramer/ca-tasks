@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d1e7e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#app {
+    width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.list-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"], select {
+    padding: 10px;
+    border: 1px solid #a0c4b4;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #a0c4b4;
+}
+li span{
+    width: 100%;
+}
+li span.completed {
+    text-decoration: line-through;
+    color: #7d8b85;
+}
+
+.add-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button#add-task, button#add-list, button.delete {
+    padding: 10px 15px;
+    background-color: #3e4e47;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #3e4e47;
+    color: #fff;
+}
+
+.dark-mode #app {
+    background-color: #2b3a33;
+    color: #fff;
+}

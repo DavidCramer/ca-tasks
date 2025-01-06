@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "short_name": "To-Do List App",
+  "name": "To-Do List App",
+  "version": "1.0",
+  "description": "A simple and elegant to-do list app with multiple lists and dark mode support.",
+  "display": "standalone",
+  "theme_color": "#000",
+  "scope": "/todo-app/",
+  "start_url": "/todo-app/",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "icon-96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+}
